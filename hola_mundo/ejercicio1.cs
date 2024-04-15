@@ -52,6 +52,10 @@ class ejercicio1
         Console.WriteLine(p1.Saludar_perro());
         p1.Nombre1 = "barbara";
         p1.Edad1 = 5;
-        Console.WriteLine(p1.Saludar_perro());    
+        Console.WriteLine(p1.Saludar_perro());
+
+
+        Humano h1 = new Humano("Ecuador",123456789);
+        Console.WriteLine(h1.Saludar_H());
     }
 }
